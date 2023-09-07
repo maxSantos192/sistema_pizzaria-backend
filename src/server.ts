@@ -23,4 +23,4 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
     })
 })
 
-app.listen(3333, () => console.log("SERVIDOR ONLINE"))
+app.listen(3333, () => console.log("ONLINE SERVER PORT:3333"))
